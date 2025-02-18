@@ -25,7 +25,7 @@ public class PresetChanger : MonoBehaviour
     }
     void SendStatS()
     {
-        GetComponent<SquareBehavior>().SetStats(presets[currentIndex]);       
+        GetComponent<PlayerMovement>().SetStats(presets[currentIndex]);       
     }
     
 
